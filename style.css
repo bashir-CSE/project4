@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+   margin: 0 !important;
+   font-family: 'Ubuntu', sans-serif;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+li{
+    list-style: none;
+    color: whitesmoke;
+}
+.navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.fa-arrow-up{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+
+}
+.hero-section{
+    background: #CAC531; 
+background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);
+background: linear-gradient(170deg, #CAC531, #F3F9A7);
+    
+    padding: 2.5rem 0;
+}
+.card-me{
+    padding-bottom: 2rem;
+}
+.card-me .card-i{
+    font-size: 2.5rem;
+}
+.next{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: linear-gradient(100deg, #fff9d1, #b9edff);
+}
+.meet{
+    background: linear-gradient(100deg, #b9edff, #fff9d1);
+    padding: 5rem 0;
+}
+.meet .container-fluid .buttun{
+    padding-top: 5rem !important;
+}
+.learn .icon-sec1 .row .col-lg-6 .fa{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+}
+.learn .icon-sec1 .row .col-lg-6 .h5{
+    line-height: 2.2rem;
+}
+.faq{
+    background-color: #f9f9f9;
+    padding: 5rem 0;
+}
+a{
+    text-decoration: none;
+}
+.card-body{
+    background: #007991;
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+    background: linear-gradient( 45deg, #78ffd6, #007991); 
+}
+.footer{
+    background: #CAC531; 
+    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);
+    background: linear-gradient(-160deg, #CAC531, #F3F9A7);
+}
+.nav-section{
+    z-index: 100;
+padding: rem 0;
+background: -webkit-linear-gradient(to right, #3A6073, #16222A);  
+background: linear-gradient(-175deg, #3A6073, #16222A); 
+
+}
+.footer .fa{
+    font-size: 1.7rem;
+    padding: 0 .3rem;
+    transition: .5s;
+    cursor: pointer;
+}
+.footer .fa:hover{
+    color: black;
+}
+.footer img{
+    border-radius: 2%;
+}
+seectio .contact{
+    height: 50vh;
+    width: auto;
+}
+/*for max-width 786*/
+
+@media  (max-width: 768px) {
+
+    *{
+        box-sizing: border-box;
+    }
+    .hero-section h1{
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 1rem;
+    }
+    .hero-section p{
+        line-height: 2.2rem;
+        text-align: center;
+    }
+    .hero-section img{
+        margin-top:-5rem;
+    }
+    .about .font-weight-light{
+        text-align: center;
+        line-height: 2.5rem;
+        padding-bottom: 4rem;
+    }
+    .about .display-4{
+        text-align: center;
+    }
+    .about .card-i,p,h3{
+        text-align: center;
+        line-height: 2.3rem;
+    }
+    .about .card-i,h3{
+        padding-bottom: 1rem;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+     .second{
+        margin: 1.5rem 0 !important;
+    }
+    .learn .plus{
+        margin-top: 4rem !important;
+    }
+    .meet .h1{
+        font-weight: bold;
+    }
+    .meet .h6{
+        font-size: 1.2rem;
+        line-height: 2.3rem;
+    }
+    .footer .about{
+        margin-top: 2.6rem !important;
+        text-align: right;
+    }
+    .footer .about1{
+        text-align: right;
+        margin-bottom: 2.9rem !important;
+    }
+    .footer .sub{
+        text-align:left;
+        margin-bottom: 2rem !important;
+    }
+    .footer .flw{
+        text-align: center !important;
+        margin-top: 3rem !important;
+    }
+  }
+
+  @media  (max-width: 900px) {
+    .hero-section{
+        text-align:center !important;
+    }
+    
+    .hero-section p{
+        line-height: 2.2rem;
+        text-align: center;
+    }
+    .hero-section img{
+        margin-top:-5rem;
+    }
+    .about .font-weight-light{
+        text-align: center;
+        line-height: 2.5rem;
+        padding-bottom: 4rem;
+    }
+    .about .display-4{
+        text-align: center;
+    }
+     .second{
+        margin: 1.5rem 0 !important;
+    }
+    .meet .h1{
+        font-weight: bold;
+    }
+    .footer .flw{
+        margin-top: 3rem !important;
+    }
+
+  }
+
+
+
+
